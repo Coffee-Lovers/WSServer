@@ -7,4 +7,4 @@ RUN godep restore
 RUN go build app.go
 
 EXPOSE 8085
-ENTRYPOINT ["go", "run", "app.go"]
+ENTRYPOINT ["app"]
