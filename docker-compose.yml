@@ -1,0 +1,13 @@
+version: "2"
+
+services:
+    wsserver:
+      ports:
+          - "8085:8085"
+      networks:
+          - "main"
+
+networks:
+    main:
+        external:
+            name: "main"

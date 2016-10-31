@@ -1,0 +1,16 @@
+{
+	"ImportPath": "github.com/Coffee-Lovers/WSServer",
+	"GoVersion": "go1.7",
+	"GodepVersion": "v74",
+	"Deps": [
+		{
+			"ImportPath": "github.com/gorilla/websocket",
+			"Comment": "v1.0.0-34-g2aff870",
+			"Rev": "2aff870ef83507abb46472eae82449f7a4c464c5"
+		},
+		{
+			"ImportPath": "github.com/streadway/amqp",
+			"Rev": "2e25825abdbd7752ff08b270d313b93519a0a232"
+		}
+	]
+}
