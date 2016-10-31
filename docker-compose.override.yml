@@ -2,7 +2,6 @@ version: "2"
 
 services:
     wsserver:
-        image: "coffeelovers/wsserver-go"
         volumes:
             - ".:/go/src/github.com/Coffee-Lovers/WSServer"
         entrypoint:

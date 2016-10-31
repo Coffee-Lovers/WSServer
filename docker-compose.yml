@@ -2,6 +2,7 @@ version: "2"
 
 services:
     wsserver:
+      image: "coffeelovers/wsserver"
       ports:
           - "8085:8085"
       networks:
